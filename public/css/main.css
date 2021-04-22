@@ -1,0 +1,174 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+.main {
+  padding: 1rem;
+}
+.main-header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #796839;
+}
+.main-header_nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header_item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.main-header-item {
+  padding: 0;
+  margin: 0 1rem;
+}
+.main-header-item a {
+  text-decoration: none;
+  color: white;
+}
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 980px;
+}
+
+.main-header__item {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.main-header__item a,
+.main-header__item button {
+  font: inherit;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.main-header-item a:hover,
+.main-header-item a:active,
+.main-header-item a.active {
+  color: wheat;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+  margin: 0;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.image {
+  height: 20rem;
+}
+
+.image img {
+  height: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #00695c;
+  color: white;
+}
+
+.form-control {
+  margin: 2rem 0;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+.form-control input {
+  border: 1px solid rgb(206, 170, 51);
+  font: inherit;
+  border-radius: 2px;
+}
+.form-product {
+  width: 30rem;
+  max-width: 90%;
+  margin: auto;
+}
+button {
+  background: white;
+  border: 1xp solid #ccc;
+  font: inherit;
+  cursor: pointer;
+}
+
+.user-message {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #8af1e5;
+  padding: 1rem;
+  background: #b0ece5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message{
+  width: 30rem;
+  border-color: red;
+  background: rgb(241, 119, 119);
+}

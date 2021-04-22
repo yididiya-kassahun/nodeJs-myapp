@@ -1,0 +1,36 @@
+
+.main-header-item a {
+  text-decoration: none;
+  color: white;
+}
+.main-header-item a:hover,
+.main-header-item a:active,
+.main-header-item a.active {
+  color: wheat;
+}
+
+.form-control {
+  margin: 2rem 0;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+.form-control input {
+  border: 1px solid #ceaa33;
+  font: inherit;
+  border-radius: 2px;
+}
+.form-product {
+  width: 30rem;
+  max-width: 90%;
+  margin: auto;
+}
+button {
+  background: white;
+  border: 1xp solid #ccc;
+  font: inherit;
+  cursor: pointer;
+}
